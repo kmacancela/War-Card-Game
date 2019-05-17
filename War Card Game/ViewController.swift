@@ -26,7 +26,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    // added an IBAction function which performs at action whenever the deal button object is clicked by user
+    
+    @IBAction func dealTapped(_ sender: Any) {
+        
+        print("Deal Tapped")
+        
+    }
+    
 
 }
 

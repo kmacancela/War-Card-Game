@@ -112,6 +112,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="leftImageView" destination="A7k-i3-eDt" id="Loa-bF-LY0"/>
+                        <outlet property="leftScoreLabel" destination="Ear-Sk-QJq" id="hYN-wP-GL9"/>
+                        <outlet property="rightImageView" destination="SwL-ub-dGf" id="a6I-3S-uJo"/>
+                        <outlet property="rightScoreLabel" destination="r07-KQ-OQE" id="ERq-vu-aFh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
